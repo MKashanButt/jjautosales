@@ -27,6 +27,7 @@
 <body>
     @include('layout.header')
     {{ $slot }}
+    @include('layout.footer')
 
     @stack('scripts')
 </body>
