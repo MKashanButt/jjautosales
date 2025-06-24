@@ -1,7 +1,7 @@
 <x-app-layout>
     <section
         class="w-full h-100 bg-[url('images/stock-banner.jpg')] bg-cover bg-center bg-norepeat relative after:content-[''] after:bg-black/70 after:absolute after:w-full after:h-full after:left-0 after:top-0 flex items-center justify-center z-40">
-        <h1 class="font-bold tracking-wide text-5xl text-white z-50 uppercase">Vehicles You Can Rely On!</h1>
+        <h1 class="font-bold tracking-wide text-2xl lg:text-5xl text-white z-50 uppercase">Vehicles You Can Rely On!</h1>
     </section>
     <section class="w-[90%] mx-auto flex flex-col lg:flex-row my-8 gap-4" id="stock">
         <div class="w-full lg:w-1/5 bg-[#1C3ACC] rounded-lg p-2 relative z-40">
