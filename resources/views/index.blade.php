@@ -1,7 +1,7 @@
 <x-app-layout>
     <section
         class="w-full min-h-screen flex flex-col lg:flex-row items-center justify-center bg-white lg:bg-[linear-gradient(120deg,_white_50%,_#1C3ACC_50%)]">
-        <!-- Image Column - Hidden on mobile, visible on lg+ -->
+        <!-- Image Column - Hidden on mobile, visible on lg+-->
         <div class="hidden lg:flex lg:w-1/2 h-full items-center justify-center">
             <img src="{{ asset('images/half-car-image.png') }}" alt="Hero Half Car Image"
                 class="w-full object-contain h-auto max-h-[80vh]" />
@@ -113,7 +113,7 @@
             <div class="w-full sticky top-0 pt-4">
                 <form action="" class="my-2 bg-white rounded-lg flex">
                     <input type="text" name="" id="" placeholder="Search"
-                        class="p-2 w-[80%] rounded-full">
+                        class="p-2 w-[80%] rounded-lg">
                     <button class="p-2 w-[20%] flex items-center justify-center cursor-pointer">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
